@@ -1,0 +1,6 @@
+college,course,year=input("Enter your college name , course and year ").split(",")
+print(college)
+print(course)
+year=int(year)
+print(year)
+print(type(year))

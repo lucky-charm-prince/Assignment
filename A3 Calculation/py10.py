@@ -1,0 +1,5 @@
+total,obtained=map(int,input("Enter total and obtained marks: ").split())
+percentages=int(obtained/total*100)
+print("Total Marks:",total)
+print("Obtained Marks:",obtained)
+print(f"Percentage: {percentages}%")

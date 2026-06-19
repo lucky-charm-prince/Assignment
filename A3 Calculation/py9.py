@@ -1,0 +1,7 @@
+distance,milage,petrol_price,=map(int,input("Enter distance,milage,petrol_price:").split())
+print("Distance:",distance)
+print("Milage:",milage)
+total_petrol_need=int(distance/milage)
+print("Petrol Price:",petrol_price)
+print("Total Petrol Need:",total_petrol_need)
+print("Total Petrol Cost:",total_petrol_need*petrol_price)
