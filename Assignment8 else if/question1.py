@@ -6,12 +6,12 @@ if units>=100:
     if units>=100:
         total=total+(100*7)
         units=units-100
-        print("total elcecticity bill=",total)
+        
         if units>0:
             total=total+(units*10)
-            print("total elcecticity bill=",total)
+        
     else:
         total=total+units*7
 else:
     total=units*5
-    print("total elcecticity bill=",total)
+print("total elcecticity bill=",total)
